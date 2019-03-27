@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+@class CRASubBreed;
 
 @interface CRABreed : NSObject
 //ID, Name, CountryCode, BredFor, breedGroup, lifeSpan, temperment, id, url
@@ -19,7 +20,7 @@
 
 //MARK: - Initialization
 
-- (instancetype)initWithName:(NSString *)name subBreeds:(NSArray *)subBreeds imageURLs:(NSArray *)imageURLs NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithName:(NSString *)name subBreeds:(NSArray *)subBreeds imageURLs:(NSArray *)imageURLs ;
 
 
 @end

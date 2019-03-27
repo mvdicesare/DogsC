@@ -7,7 +7,6 @@
 //
 
 #import "CRABreed.h"
-@class CRASubBreed;
 
 @implementation CRABreed
 
@@ -21,12 +20,6 @@
         _imageURLs = imageURLs;
     }
     return self;
-}
-
-
-- (instancetype)init
-{
-    return [self initWithName:@"" subBreeds:[[NSArray alloc] init] imageURLs:[[NSArray alloc] init]];
 }
 
 @end

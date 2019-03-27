@@ -7,11 +7,6 @@
 //
 
 #import "CRAImagesCollectionViewController.h"
-#import "CRABreed.h"
-#import "CRASubBreed.h"
-#import "CRAImageCollectionViewCell.h"
-#import "CRABreedNetworkClient.h"
-#import "DogsC_Master-Swift.h"
 
 @interface CRAImagesCollectionViewController ()
 
