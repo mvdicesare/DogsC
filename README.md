@@ -50,7 +50,7 @@ In the header file, create four instance method signatures:
 
 1.  `fetchAllBreeds` has a completion block as a parameter. It returns an array of Breeds.
 2. `fetchBreedImageURLs` has a breed and a completion block as a parameter. It returns an Array of Image URLs as NSStrings.
-3. `fetchBreedImageURLs` has a breed, subBreed, and a completion block as a parameter. It returns an Array of Image URLs as NSStrings.
+3. `fetchSubBreedImageURLs` has a breed, subBreed, and a completion block as a parameter. It returns an Array of Image URLs as NSStrings.
 4. `fetchImageData` has a NSURL and a completion block as a parameter that returns imageData in the form of NSData.
 
 Create a shared instance as a private method.
