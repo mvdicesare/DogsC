@@ -16,6 +16,6 @@
 
 //MARK: - Initialization
 
-- (instancetype)initWithName:(NSString *)name imageURLs:(NSArray *)imageURLs NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithName:(NSString *)name imageURLs:(NSArray *)imageURLs;
 
 @end

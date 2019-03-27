@@ -21,9 +21,4 @@
     return self;
 }
 
-- (instancetype)init
-{
-    return [self initWithName:@"" imageURLs:[[NSArray alloc] init]];
-}
-
 @end
