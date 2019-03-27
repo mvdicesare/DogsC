@@ -142,6 +142,9 @@ At this point, you should be able to run the app and be able to select a Breed w
 
 You should now be able to load an entire collection view of images of Breeds and SubBreeds.
 
+## Part Four: Detail View Controller
+#### Coming Soon
+
 ## Contributions
 
 Please refer to CONTRIBUTING.md.
