@@ -98,23 +98,6 @@ No other classes will reference properties or methods on the CRABreedsListTableV
 
 At this point, you should be able to run the app and be able to select a Breed with a SubBreed from the inital table view controller, and see a list of its SubBreeds. When selecting a Breed without SubBreeds or a SubBreed you should be brought to the Collection View Controller. Make sure this works before continuing.
 
-## Part Three: Collection View Controller and Collection View Cell
-
-### ImageCollectionViewCell:
-* Create the IBOutlet for the imageView
-* Create a landing pad for an image NSURL
-* In the implementation of the cell file, call the `prepareForReuse` function.
-* Create a `setImageURL` method that uses the `fetchImageData` method from the `BreedNetworkClient`
-* Set the image on the main thread.
-
-### ImagesCollectionViewController:
-* In the implementation create a private array called `imageURLs` that will be the data source for the collection view.
-* Implement the `UICollectionViewDataSource` methods. (hint: Fetch the image URLs of the passed Breed or SubBreed)
-* Create a custom setter- `setImageURLs:`
-* Pass the imageURL to the `UICollectionViewCell`
-
-You should now be able to load an entire collection view of images of Breeds and SubBreeds.
-
 ## Part Two - Storyboard and Table View Controllers
 
 ### Storyboard:
