@@ -1,9 +1,9 @@
 #  Dog
 
 Students will build an app to access different information and photos of Breeds of Dogs. This app will help students practice and solidify the following concepts in Objective-C:
-*Table Views
-*Collection Views
-*REST API calls
+* Table Views
+* Collection Views
+* REST API calls
 
 Please note and be aware that parts of these instructions are intentionally vague as this is Unit 4, and you have accrued a lot of experience thus far. A decent portion of this app is fairly simple, and you have done these things much time (Table Views, model objects, etc.), simply not in Objective-C. Remember the 20-minute rule, and try Googling, looking at Stack Overflow, and use the documentation before you ask a mentor. This is for your own benefit to help you acquire the skills to find solutions independently.
 
@@ -13,11 +13,11 @@ Take the time to look through the documentation for the API [here](https://dog.c
 
 Use what you learned from exploring the documentation to make various sample requests through a web browser or HTTP Client (e.g. Postman or Paw). The following endpoints may be helpful in searching the API.
 
-*The Base API URL (returns no data on it's own): [https://dog.ceo/api](https://dog.ceo/api)
-*The list of Dog Breeds and Sub-Breeds: [https://dog.ceo/api/breeds/list/all](https://dog.ceo/api/breeds/list/all)
-*The list of images for a selected Breed [Example](https://dog.ceo/api/breed/hound/images)
+* The Base API URL (returns no data on it's own): [https://dog.ceo/api](https://dog.ceo/api)
+* The list of Dog Breeds and Sub-Breeds: [https://dog.ceo/api/breeds/list/all](https://dog.ceo/api/breeds/list/all)
+* The list of images for a selected Breed [Example](https://dog.ceo/api/breed/hound/images)
 The list of images for a selected Sub-Breed [Example](https://dog.ceo/api/breed/hound/basset/images)
-*Image URL [example](https://images.dog.ceo/breeds/hound-afghan/n02088094_1430.jpg)
+* Image URL [example](https://images.dog.ceo/breeds/hound-afghan/n02088094_1430.jpg)
 
 Each of these endpoints will provide you with the basis of one of your model objects. Each will require it's own fetch functions. You should familiarize yourself with the structure of the json of each query.
 
