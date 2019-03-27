@@ -26,7 +26,7 @@ Each of these endpoints will provide you with the basis of one of your model obj
 #### Model Objects:
 You will need two model objects in this project. A model representing a dog breed and a dog sub-breed.
 
-Create a new Cocoa Touch sublcess of `NSObject` for each of these three model objects.
+Create a new Cocoa Touch sublcess of `NSObject` for each of these two model objects.
 
 *Add properties for the following model objects. Use the json trees above to determins the type of each property. Assume all properties should be nonatomic and readonly:
 
@@ -63,7 +63,7 @@ Create a shared instance as a private method.
 You will now fill out the methods that you defined in the .h file. 
 1.  `fetchAllBreeds` 
 2. `fetchBreedImageURLs` 
-3. `fetchBreedImageURLs` 
+3. `fetchSubBreedImageURLs` 
 4. `fetchImageData` 
 
 The following four methods will all use `NSURLSession`, and follow the same steps as in Swift to take a URL, get data from it, turn it into JSON, and then turn the JSON into our model objects. Since Objective-C does not have access to Swift's `Codable` protocol, we will need to follow the failable initializer method, using `[NSJSONSerialization JSONObjectWithData:]` to initialize a dictionary.  You will then need to call an initializer (which you should have written in each of your model objects) which takes in a dictionary (from the JSON) and returns an instance of the model.  Use the class methods we made above to generate the URLs necessary. Remember to look at what each method should return through the completion block for the end goal of the method.
