@@ -1,7 +1,5 @@
 #  Dog
 
-Please fork and clone this repository
-
 Students will build an app to access different information and photos of Breeds of Dogs. This app will help students practice and solidify the following concepts in Objective-C:
 *Table Views
 *Collection Views
