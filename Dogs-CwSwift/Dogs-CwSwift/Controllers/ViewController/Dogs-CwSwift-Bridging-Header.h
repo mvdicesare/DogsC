@@ -5,3 +5,6 @@
 #import "MVDBreed.h"
 #import "MVDSubBreed.h"
 #import "MVDNetworkController.h"
+#import "MVDBreedTableViewController.h"
+#import "MVDSubBreedTableViewController.h"
+#import "MVDImagesCollectionViewController.h"

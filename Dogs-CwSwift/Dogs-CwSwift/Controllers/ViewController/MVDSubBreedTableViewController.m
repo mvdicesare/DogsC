@@ -9,7 +9,7 @@
 #import "MVDSubBreedTableViewController.h"
 #import "MVDBreed.h"
 #import "MVDSubBreed.h"
-//#import "MVDImagesCollectionViewController.h"
+#import "MVDImagesCollectionViewController.h"
 
 @interface MVDSubBreedTableViewController ()
 

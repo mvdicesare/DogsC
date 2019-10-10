@@ -11,6 +11,8 @@
 #import "MVDSubBreed.h"
 #import "MVDImageCollectionViewCell.h"
 #import "MVDNetworkController.h"
+#import "Dogs_CwSwift-Swift.h"
+
 //#import "Dogs-CwSwift-Bridging-Header.h"
 
 

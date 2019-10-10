@@ -16,8 +16,8 @@ class MVDDetailViewController: UIViewController {
     @objc var dogImageUrl: NSURL?{
         didSet{
             loadViewIfNeeded()
-            MVDNetworkController.fetchImageData(dogImageUrl as URL, completion: { (data, error) in
-                guard let data else {return}
+            MVDNetworkController.fetchImageData(dogImageUrl! as URL, completion: { (data, error) in
+                guard let data = data else {return}
                 DispatchQueue.main.async {
                     self.dogImageView.image = UIImage(data: data)
                     }

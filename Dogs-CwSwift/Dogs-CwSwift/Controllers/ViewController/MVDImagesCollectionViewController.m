@@ -8,7 +8,6 @@
 
 #import "MVDImagesCollectionViewController.h"
 
-
 @interface MVDImagesCollectionViewController ()
 
 @end
@@ -16,6 +15,7 @@
 @implementation MVDImagesCollectionViewController
 
 static NSString * const reuseIdentifier = @"imageCell";
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -30,24 +30,6 @@ static NSString * const reuseIdentifier = @"imageCell";
     
   
 }
-//- (void)setMVDBreed:(MVDNetworkController *)MVDBreed
-//{
-//    if(MVDBreed != _MVDBreed)
-//    {
-//        _MVDBreed != MVDBreed;
-//        [self.collectionView reloadData];
-//    }
-//}
-//- (void)setSubBreed:(MVDSubBreed *)subBreed
-//{
-//    if(MVDSubBreed != _MVDSubBreed)
-//    {
-//        _MVDSubBreed != MVDSubBreed
-//        [self.collectionView reloadData];
-//    }
-//}
-
-
 
 #pragma mark <UICollectionViewDataSource>
 
@@ -99,15 +81,16 @@ static NSString * const reuseIdentifier = @"imageCell";
     {
         NSIndexPath *indexpath = [[self.collectionView indexPathsForSelectedItems]firstObject];
         NSURL *dogImageURL = [NSURL URLWithString:self.imageUrls[indexpath.row]];
-        MVDDetailViewController *destinationVC = segue.destinationViewController;
-        destinationVC.dogimageURL = dogImageURL;
+        MVDDetailViewController *detailVC = segue.destinationViewController;
+        detailVC.dogImageUrl = dogImageURL;
+       destinationVC.dogImageURL = dogImageURL;
         if(self.breed)
         {
             destinationVC.breed = self.breed;
         }
         if(self.subBreed)
         {
-            destinationVC.subBreed = self.subBreed;
+           destinationVC.subBreed = self.subBreed;
         }
     }
 }
