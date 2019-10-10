@@ -12,6 +12,35 @@ class MVDDetailViewController: UIViewController {
 
     @IBOutlet weak var dogImageView: UIImageView!
     @IBOutlet weak var dogNameLabel: UILabel!
+    // landing pad
+    @objc var dogImageUrl: NSURL?{
+        didSet{
+            loadViewIfNeeded()
+            MVDNetworkController.fetchImageData(dogImageUrl as URL, completion: { (data, error) in
+                guard let data else {return}
+                DispatchQueue.main.async {
+                    self.dogImageView.image = UIImage(data: data)
+                    }
+                })
+            }
+        }
+         //breed landing pad
+     @objc var breed: MVDBreed?{
+         didSet{
+             loadViewIfNeeded()
+             dogNameLabel.text = breed?.name.capitalized
+         }
+     }
+     //subBreed landing pad
+     @objc var subBreed: MVDSubBreed?{
+         didSet{
+             loadViewIfNeeded()
+             guard let subBreedName = subBreed?.name,
+                 let breedName = breed?.name else {return}
+             dogNameLabel.text = "\(subBreedName) \(breedName)".capitalized
+         }
+     }
+    
     
     
     override func viewDidLoad() {
@@ -19,16 +48,6 @@ class MVDDetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
