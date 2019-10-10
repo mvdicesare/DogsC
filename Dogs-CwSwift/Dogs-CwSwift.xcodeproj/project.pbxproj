@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26311C31234E785800AD46B5 /* MVDBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 26311C30234E785800AD46B5 /* MVDBreed.m */; };
+		26311C34234E786900AD46B5 /* MVDSubBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 26311C33234E786900AD46B5 /* MVDSubBreed.m */; };
+		26311C37234E820400AD46B5 /* MVDNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26311C36234E820400AD46B5 /* MVDNetworkController.m */; };
+		26311C3D234ECB8A00AD46B5 /* MVDImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26311C3C234ECB8A00AD46B5 /* MVDImageCollectionViewCell.m */; };
+		26311C40234ECBD800AD46B5 /* MVDBreedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26311C3F234ECBD800AD46B5 /* MVDBreedTableViewController.m */; };
+		26311C43234ECBF800AD46B5 /* MVDSubBreedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26311C42234ECBF800AD46B5 /* MVDSubBreedTableViewController.m */; };
+		26311C46234ECC2000AD46B5 /* MVDImagesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26311C45234ECC2000AD46B5 /* MVDImagesCollectionViewController.m */; };
+		26311C49234ECCD900AD46B5 /* MVDDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26311C48234ECCD900AD46B5 /* MVDDetailViewController.swift */; };
 		26875C39234E710100B68493 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26875C38234E710100B68493 /* AppDelegate.m */; };
 		26875C3C234E710100B68493 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26875C3B234E710100B68493 /* SceneDelegate.m */; };
 		26875C42234E710100B68493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26875C40234E710100B68493 /* Main.storyboard */; };
@@ -16,6 +24,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26311C2F234E785800AD46B5 /* MVDBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVDBreed.h; sourceTree = "<group>"; };
+		26311C30234E785800AD46B5 /* MVDBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVDBreed.m; sourceTree = "<group>"; };
+		26311C32234E786900AD46B5 /* MVDSubBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVDSubBreed.h; sourceTree = "<group>"; };
+		26311C33234E786900AD46B5 /* MVDSubBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVDSubBreed.m; sourceTree = "<group>"; };
+		26311C35234E820400AD46B5 /* MVDNetworkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVDNetworkController.h; sourceTree = "<group>"; };
+		26311C36234E820400AD46B5 /* MVDNetworkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVDNetworkController.m; sourceTree = "<group>"; };
+		26311C3B234ECB8A00AD46B5 /* MVDImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVDImageCollectionViewCell.h; sourceTree = "<group>"; };
+		26311C3C234ECB8A00AD46B5 /* MVDImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVDImageCollectionViewCell.m; sourceTree = "<group>"; };
+		26311C3E234ECBD800AD46B5 /* MVDBreedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVDBreedTableViewController.h; sourceTree = "<group>"; };
+		26311C3F234ECBD800AD46B5 /* MVDBreedTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVDBreedTableViewController.m; sourceTree = "<group>"; };
+		26311C41234ECBF800AD46B5 /* MVDSubBreedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVDSubBreedTableViewController.h; sourceTree = "<group>"; };
+		26311C42234ECBF800AD46B5 /* MVDSubBreedTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVDSubBreedTableViewController.m; sourceTree = "<group>"; };
+		26311C44234ECC2000AD46B5 /* MVDImagesCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVDImagesCollectionViewController.h; sourceTree = "<group>"; };
+		26311C45234ECC2000AD46B5 /* MVDImagesCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVDImagesCollectionViewController.m; sourceTree = "<group>"; };
+		26311C47234ECCD800AD46B5 /* Dogs-CwSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dogs-CwSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		26311C48234ECCD900AD46B5 /* MVDDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVDDetailViewController.swift; sourceTree = "<group>"; };
 		26875C34234E710100B68493 /* Dogs-CwSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dogs-CwSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26875C37234E710100B68493 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26875C38234E710100B68493 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +63,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26311C38234EC7C200AD46B5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26311C3E234ECBD800AD46B5 /* MVDBreedTableViewController.h */,
+				26311C3F234ECBD800AD46B5 /* MVDBreedTableViewController.m */,
+				26311C41234ECBF800AD46B5 /* MVDSubBreedTableViewController.h */,
+				26311C42234ECBF800AD46B5 /* MVDSubBreedTableViewController.m */,
+				26311C44234ECC2000AD46B5 /* MVDImagesCollectionViewController.h */,
+				26311C45234ECC2000AD46B5 /* MVDImagesCollectionViewController.m */,
+				26311C48234ECCD900AD46B5 /* MVDDetailViewController.swift */,
+				26311C47234ECCD800AD46B5 /* Dogs-CwSwift-Bridging-Header.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		26311C39234EC7D700AD46B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26311C3B234ECB8A00AD46B5 /* MVDImageCollectionViewCell.h */,
+				26311C3C234ECB8A00AD46B5 /* MVDImageCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26311C3A234EC80200AD46B5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				26875C40234E710100B68493 /* Main.storyboard */,
+				26875C45234E710400B68493 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		26875C2B234E710100B68493 = {
 			isa = PBXGroup;
 			children = (
@@ -58,41 +115,48 @@
 		26875C36234E710100B68493 /* Dogs-CwSwift */ = {
 			isa = PBXGroup;
 			children = (
+				26311C3A234EC80200AD46B5 /* Storyboards */,
 				26875C53234E712D00B68493 /* Supporting Docs */,
-				26875C52234E712700B68493 /* View */,
+				26875C52234E712700B68493 /* Controllers */,
 				26875C51234E712000B68493 /* Model */,
-				26875C50234E711200B68493 /* ModelController */,
-				26875C40234E710100B68493 /* Main.storyboard */,
+				26875C50234E711200B68493 /* NetworkController */,
 			);
 			path = "Dogs-CwSwift";
 			sourceTree = "<group>";
 		};
-		26875C50234E711200B68493 /* ModelController */ = {
+		26875C50234E711200B68493 /* NetworkController */ = {
 			isa = PBXGroup;
 			children = (
+				26311C35234E820400AD46B5 /* MVDNetworkController.h */,
+				26311C36234E820400AD46B5 /* MVDNetworkController.m */,
 			);
-			path = ModelController;
+			path = NetworkController;
 			sourceTree = "<group>";
 		};
 		26875C51234E712000B68493 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				26311C2F234E785800AD46B5 /* MVDBreed.h */,
+				26311C30234E785800AD46B5 /* MVDBreed.m */,
+				26311C32234E786900AD46B5 /* MVDSubBreed.h */,
+				26311C33234E786900AD46B5 /* MVDSubBreed.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		26875C52234E712700B68493 /* View */ = {
+		26875C52234E712700B68493 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				26311C39234EC7D700AD46B5 /* View */,
+				26311C38234EC7C200AD46B5 /* ViewController */,
 			);
-			path = View;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		26875C53234E712D00B68493 /* Supporting Docs */ = {
 			isa = PBXGroup;
 			children = (
 				26875C43234E710400B68493 /* Assets.xcassets */,
-				26875C45234E710400B68493 /* LaunchScreen.storyboard */,
 				26875C48234E710400B68493 /* Info.plist */,
 				26875C49234E710400B68493 /* main.m */,
 				26875C37234E710100B68493 /* AppDelegate.h */,
@@ -135,6 +199,7 @@
 				TargetAttributes = {
 					26875C33234E710100B68493 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -174,8 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26311C40234ECBD800AD46B5 /* MVDBreedTableViewController.m in Sources */,
+				26311C49234ECCD900AD46B5 /* MVDDetailViewController.swift in Sources */,
 				26875C39234E710100B68493 /* AppDelegate.m in Sources */,
+				26311C46234ECC2000AD46B5 /* MVDImagesCollectionViewController.m in Sources */,
 				26875C4A234E710400B68493 /* main.m in Sources */,
+				26311C34234E786900AD46B5 /* MVDSubBreed.m in Sources */,
+				26311C31234E785800AD46B5 /* MVDBreed.m in Sources */,
+				26311C3D234ECB8A00AD46B5 /* MVDImageCollectionViewCell.m in Sources */,
+				26311C37234E820400AD46B5 /* MVDNetworkController.m in Sources */,
+				26311C43234ECBF800AD46B5 /* MVDSubBreedTableViewController.m in Sources */,
 				26875C3C234E710100B68493 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,15 +389,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B35K2XL3AM;
-				INFOPLIST_FILE = "Dogs-CwSwift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Dogs-CwSwift/Supporting Docs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelDicesare.Dogs-CwSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dogs-CwSwift/Controllers/ViewController/Dogs-CwSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -333,15 +410,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B35K2XL3AM;
-				INFOPLIST_FILE = "Dogs-CwSwift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Dogs-CwSwift/Supporting Docs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MichaelDicesare.Dogs-CwSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dogs-CwSwift/Controllers/ViewController/Dogs-CwSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
